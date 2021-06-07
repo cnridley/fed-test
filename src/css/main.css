@@ -53,12 +53,50 @@
   margin: 0 auto;
   padding: 30px 20px;
 }
+
 .layout_header {
   margin-bottom: 30px;
   text-align: center;
+  padding-top: 20px;
+  height: 100px;
+  background-color: #24272a;
 }
 
 /* Begin styling the report items here! */
-.reports {
 
+body {
+  background-color: #2b3034;
+}
+
+
+.layout_title {
+  color: white;
+}
+
+.reports {
+  margin: 30px;
+}
+
+.reports img {
+  box-shadow: 3px 5px 5px #24272a;
+}
+
+.reports_info {
+  font-size: 0.8rem;
+  color: white;
+  background-color: #24272a;
+  margin-top: 10px !important;
+  margin-left: -15px;
+  text-align: center;
+  width: 270px;
+  margin-top: 5px;
+  box-shadow: 3px 5px 5px #24272a;
+}
+
+.reports_info p {
+  padding: 5px 0;
+}
+
+.reports_info span {
+  color: #505355;
 }
